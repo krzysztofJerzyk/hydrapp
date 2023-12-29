@@ -1,1 +1,35 @@
 @import '../../node_modules/normalize.css/';
+@import './components/colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+ }
+
+ *, *:after, *:before {
+     box-sizing: border-box;
+ }
+
+body{
+    background-color: $wypelenieniTla;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 122px 47px;
+ }
+
+ main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ h1 {
+    color: $bialy;
+    font-weight: 600;
+    font-size: 60px;
+ }
